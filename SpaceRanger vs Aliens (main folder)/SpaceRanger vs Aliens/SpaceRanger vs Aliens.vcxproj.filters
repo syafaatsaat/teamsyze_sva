@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameStateLevel1.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsHelper.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevel.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectiles.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePause.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Powerups.c">
+      <Filter>GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameStateLevel1.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsHelper.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevel.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectiles.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePause.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Powerups.h">
+      <Filter>GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{e5787da5-d461-43af-94c8-48bf85c41f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{77b233ac-9444-4bc7-ba9c-1b6b384d8578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{6e8c6564-a340-453a-ad6e-d5fb4688ac11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d1870a4e-46e3-4835-a995-c8e8bcea975b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="MainMenu.txt">
+      <Filter>GameStates</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
